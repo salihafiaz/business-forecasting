@@ -26,6 +26,32 @@ passenger demand.
 - Evaluated models using MAPE, MSE, RMSE, AIC, BIC,
   and Ljung-Box statistical diagnostics.
 
+## Data Visualization
+
+### Historical Passenger Volumes
+
+![Historical Passenger Volumes](historical-passenger-volumes.png)
+
+Historical international passenger data demonstrates
+recurring seasonal fluctuations and an underlying
+growth trend.
+
+### Triple Exponential Smoothing
+
+![Triple Exponential Smoothing](triple-exponential-smoothing.png)
+
+Triple Exponential Smoothing was applied to capture
+the underlying trend and seasonal components of
+passenger demand.
+
+### Forecast Accuracy Comparison
+
+![Forecast Accuracy Comparison](forecast-accuracy-comparison.png)
+
+Seasonal ARIMA outperformed Triple Exponential
+Smoothing across MAPE, MSE, and RMSE, supporting
+further investigation of ARIMA-based forecasting models.
+
 ## Model Performance
 
 | Model | MAPE | MSE |
